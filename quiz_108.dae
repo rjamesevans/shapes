@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>off2dae (Antiprism - http://www.antiprism.com)</authoring_tool>
+    </contributor>
+    <created>2026-11-03T01:06:20Z</created>
+    <modified>2026-11-03T01:06:20Z</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="c_ff8000ff">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse><color>1.0000 0.5020 0.0000 1.0000</color></diffuse>
+            <transparency><float>1.000000</float></transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="m_ff8000ff"><instance_effect url="#c_ff8000ff" /></material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geometry_vertex_sphere">
+      <mesh>
+        <source id="source_normals_vertex_sphere">
+          <float_array id="float_array_normals_vertex_sphere" count="276">
+            0 0.525731 0.850651 0 0.525731 -0.850651 0 -0.525731 0.850651 0 -0.525731 -0.850651 0.525731 0.850651 0 0.525731 -0.850651 0 -0.525731 0.850651 0 -0.525731 -0.850651 0 0.850651 0 0.525731 0.850651 0 -0.525731 -0.850651 0 0.525731 -0.850651 0 -0.525731 2.26747e-16 0.183479 0.983024 1.92246e-16 -0.183479 0.983024 0.212031 0.738585 0.63995 0.395511 0.851981 0.343074 -0.212031 0.738585 0.63995 -0.395511 0.851981 0.343074 0.343074 0.395511 0.851981 0.63995 0.212031 0.738585 -0.343074 0.395511 0.851981 -0.63995 0.212031 0.738585 1.92246e-16 0.183479 -0.983024 2.26747e-16 -0.183479 -0.983024 0.212031 0.738585 -0.63995 0.395511 0.851981 -0.343074 -0.212031 0.738585 -0.63995 -0.395511 0.851981 -0.343074 0.343074 0.395511 -0.851981 0.63995 0.212031 -0.738585 -0.343074 0.395511 -0.851981 -0.63995 0.212031 -0.738585 0.212031 -0.738585 0.63995 0.395511 -0.851981 0.343074 -0.212031 -0.738585 0.63995 -0.395511 -0.851981 0.343074 0.343074 -0.395511 0.851981 0.63995 -0.212031 0.738585 -0.343074 -0.395511 0.851981 -0.63995 -0.212031 0.738585 0.212031 -0.738585 -0.63995 0.395511 -0.851981 -0.343074 -0.212031 -0.738585 -0.63995 -0.395511 -0.851981 -0.343074 0.343074 -0.395511 -0.851981 0.63995 -0.212031 -0.738585 -0.343074 -0.395511 -0.851981 -0.63995 -0.212031 -0.738585 0.183479 0.983024 3.40961e-17 -0.183479 0.983024 3.40961e-17 0.738585 0.63995 0.212031 0.851981 0.343074 0.395511 0.738585 0.63995 -0.212031 0.851981 0.343074 -0.395511 0.183479 -0.983024 -3.40961e-17 -0.183479 -0.983024 -3.40961e-17 0.738585 -0.63995 0.212031 0.851981 -0.343074 0.395511 0.738585 -0.63995 -0.212031 0.851981 -0.343074 -0.395511 -0.738585 0.63995 0.212031 -0.851981 0.343074 0.395511 -0.738585 0.63995 -0.212031 -0.851981 0.343074 -0.395511 -0.738585 -0.63995 0.212031 -0.851981 -0.343074 0.395511 -0.738585 -0.63995 -0.212031 -0.851981 -0.343074 -0.395511 0.983024 2.26747e-16 0.183479 0.983024 1.92246e-16 -0.183479 -0.983024 -2.26747e-16 0.183479 -0.983024 -1.92246e-16 -0.183479 -0.356822 -3.12451e-17 -0.934172 -0.356822 3.09531e-17 0.934172 0.57735 -0.57735 0.57735 -0.57735 -0.57735 -0.57735 3.12451e-17 0.934172 -0.356822 3.12451e-17 -0.934172 0.356822 0.57735 -0.57735 -0.57735 -3.12451e-17 0.934172 0.356822 -0.57735 -0.57735 0.57735 -3.12451e-17 -0.934172 -0.356822 0.356822 -3.12451e-17 0.934172 0.57735 0.57735 0.57735 0.934172 -0.356822 3.12451e-17 0.57735 0.57735 -0.57735 0.356822 3.09531e-17 -0.934172 0.934172 0.356822 -3.12451e-17 -0.57735 0.57735 0.57735 -0.934172 0.356822 3.12451e-17 -0.57735 0.57735 -0.57735 -0.934172 -0.356822 -3.12451e-17 
+          </float_array>
+          <technique_common>
+            <accessor count="92" source="#float_array_normals_vertex_sphere" offset="0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="source_vertex_sphere">
+          <float_array id="float_array_vertex_sphere" count="276">
+            0 0.525731 0.850651 0 0.525731 -0.850651 0 -0.525731 0.850651 0 -0.525731 -0.850651 0.525731 0.850651 0 0.525731 -0.850651 0 -0.525731 0.850651 0 -0.525731 -0.850651 0 0.850651 0 0.525731 0.850651 0 -0.525731 -0.850651 0 0.525731 -0.850651 0 -0.525731 2.26747e-16 0.183479 0.983024 1.92246e-16 -0.183479 0.983024 0.212031 0.738585 0.63995 0.395511 0.851981 0.343074 -0.212031 0.738585 0.63995 -0.395511 0.851981 0.343074 0.343074 0.395511 0.851981 0.63995 0.212031 0.738585 -0.343074 0.395511 0.851981 -0.63995 0.212031 0.738585 1.92246e-16 0.183479 -0.983024 2.26747e-16 -0.183479 -0.983024 0.212031 0.738585 -0.63995 0.395511 0.851981 -0.343074 -0.212031 0.738585 -0.63995 -0.395511 0.851981 -0.343074 0.343074 0.395511 -0.851981 0.63995 0.212031 -0.738585 -0.343074 0.395511 -0.851981 -0.63995 0.212031 -0.738585 0.212031 -0.738585 0.63995 0.395511 -0.851981 0.343074 -0.212031 -0.738585 0.63995 -0.395511 -0.851981 0.343074 0.343074 -0.395511 0.851981 0.63995 -0.212031 0.738585 -0.343074 -0.395511 0.851981 -0.63995 -0.212031 0.738585 0.212031 -0.738585 -0.63995 0.395511 -0.851981 -0.343074 -0.212031 -0.738585 -0.63995 -0.395511 -0.851981 -0.343074 0.343074 -0.395511 -0.851981 0.63995 -0.212031 -0.738585 -0.343074 -0.395511 -0.851981 -0.63995 -0.212031 -0.738585 0.183479 0.983024 3.40961e-17 -0.183479 0.983024 3.40961e-17 0.738585 0.63995 0.212031 0.851981 0.343074 0.395511 0.738585 0.63995 -0.212031 0.851981 0.343074 -0.395511 0.183479 -0.983024 -3.40961e-17 -0.183479 -0.983024 -3.40961e-17 0.738585 -0.63995 0.212031 0.851981 -0.343074 0.395511 0.738585 -0.63995 -0.212031 0.851981 -0.343074 -0.395511 -0.738585 0.63995 0.212031 -0.851981 0.343074 0.395511 -0.738585 0.63995 -0.212031 -0.851981 0.343074 -0.395511 -0.738585 -0.63995 0.212031 -0.851981 -0.343074 0.395511 -0.738585 -0.63995 -0.212031 -0.851981 -0.343074 -0.395511 0.983024 2.26747e-16 0.183479 0.983024 1.92246e-16 -0.183479 -0.983024 -2.26747e-16 0.183479 -0.983024 -1.92246e-16 -0.183479 -0.356822 -3.12451e-17 -0.934172 -0.356822 3.09531e-17 0.934172 0.57735 -0.57735 0.57735 -0.57735 -0.57735 -0.57735 3.12451e-17 0.934172 -0.356822 3.12451e-17 -0.934172 0.356822 0.57735 -0.57735 -0.57735 -3.12451e-17 0.934172 0.356822 -0.57735 -0.57735 0.57735 -3.12451e-17 -0.934172 -0.356822 0.356822 -3.12451e-17 0.934172 0.57735 0.57735 0.57735 0.934172 -0.356822 3.12451e-17 0.57735 0.57735 -0.57735 0.356822 3.09531e-17 -0.934172 0.934172 0.356822 -3.12451e-17 -0.57735 0.57735 0.57735 -0.934172 0.356822 3.12451e-17 -0.57735 0.57735 -0.57735 -0.934172 -0.356822 -3.12451e-17 
+          </float_array>
+          <technique_common>
+            <accessor count="92" source="#float_array_vertex_sphere" offset="0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vertices_vertex_sphere">
+          <input semantic="POSITION" source="#source_vertex_sphere" />
+        </vertices>
+        <triangles material="im_vertex_sphere" count="180">
+          <input semantic="VERTEX" offset="0" source="#vertices_vertex_sphere" />
+          <input semantic="NORMAL" offset="1" source="#source_normals_vertex_sphere" />
+          <p>30 30 1 1 22 22 22 22 72 72 30 30 72 72 22 22 23 23 23 23 46 46 72 72 46 46 23 23 3 3 31 31 30 30 72 72 72 72 47 47 31 31 47 47 72 72 46 46 11 11 31 31 47 47 12 12 0 0 20 20 20 20 73 73 12 12 73 73 20 20 21 21 21 21 39 39 73 73 39 39 21 21 10 10 13 13 12 12 73 73 73 73 38 38 13 13 38 38 73 73 39 39 2 2 13 13 38 38 36 36 2 2 32 32 32 32 74 74 36 36 74 74 32 32 33 33 33 33 56 56 74 74 56 56 33 33 5 5 37 37 36 36 74 74 74 74 57 57 37 37 57 57 74 74 56 56 8 8 37 37 57 57 46 46 3 3 42 42 42 42 75 75 46 46 75 75 42 42 43 43 43 43 66 66 75 75 66 66 43 43 7 7 47 47 46 46 75 75 75 75 67 67 47 47 67 67 75 75 66 66 11 11 47 47 67 67 24 24 1 1 26 26 26 26 76 76 24 24 76 76 26 26 27 27 27 27 49 49 76 76 49 49 27 27 6 6 25 25 24 24 76 76 76 76 48 48 25 25 48 48 76 76 49 49 4 4 25 25 48 48 32 32 2 2 34 34 34 34 77 77 32 32 77 77 34 34 35 35 35 35 55 55 77 77 55 55 35 35 7 7 33 33 32 32 77 77 77 77 54 54 33 33 54 54 77 77 55 55 5 5 33 33 54 54 40 40 3 3 44 44 44 44 78 78 40 40 78 78 44 44 45 45 45 45 59 59 78 78 59 59 45 45 9 9 41 41 40 40 78 78 78 78 58 58 41 41 58 58 78 78 59 59 5 5 41 41 58 58 16 16 0 0 14 14 14 14 79 79 16 16 79 79 14 14 15 15 15 15 48 48 79 79 48 48 15 15 4 4 17 17 16 16 79 79 79 79 49 49 17 17 49 49 79 79 48 48 6 6 17 17 49 49 34 34 2 2 38 38 38 38 80 80 34 34 80 80 38 38 39 39 39 39 65 65 80 80 65 65 39 39 10 10 35 35 34 34 80 80 80 80 64 64 35 35 64 64 80 80 65 65 7 7 35 35 64 64 42 42 3 3 40 40 40 40 81 81 42 42 81 81 40 40 41 41 41 41 54 54 81 81 54 54 41 41 5 5 43 43 42 42 81 81 81 81 55 55 43 43 55 55 81 81 54 54 7 7 43 43 55 55 18 18 0 0 12 12 12 12 82 82 18 18 82 82 12 12 13 13 13 13 36 36 82 82 36 36 13 13 2 2 19 19 18 18 82 82 82 82 37 37 19 19 37 37 82 82 36 36 8 8 19 19 37 37 14 14 0 0 18 18 18 18 83 83 14 14 83 83 18 18 19 19 19 19 51 51 83 83 51 51 19 19 8 8 15 15 14 14 83 83 83 83 50 50 15 15 50 50 83 83 51 51 4 4 15 15 50 50 56 56 5 5 58 58 58 58 84 84 56 56 84 84 58 58 59 59 59 59 69 69 84 84 69 69 59 59 9 9 57 57 56 56 84 84 84 84 68 68 57 57 68 68 84 84 69 69 8 8 57 57 68 68 28 28 1 1 24 24 24 24 85 85 28 28 85 85 24 24 25 25 25 25 52 52 85 85 52 52 25 25 4 4 29 29 28 28 85 85 85 85 53 53 29 29 53 53 85 85 52 52 9 9 29 29 53 53 22 22 1 1 28 28 28 28 86 86 22 22 86 86 28 28 29 29 29 29 45 45 86 86 45 45 29 29 9 9 23 23 22 22 86 86 86 86 44 44 23 23 44 44 86 86 45 45 3 3 23 23 44 44 52 52 4 4 50 50 50 50 87 87 52 52 87 87 50 50 51 51 51 51 68 68 87 87 68 68 51 51 8 8 53 53 52 52 87 87 87 87 69 69 53 53 69 69 87 87 68 68 9 9 53 53 69 69 20 20 0 0 16 16 16 16 88 88 20 20 88 88 16 16 17 17 17 17 60 60 88 88 60 60 17 17 6 6 21 21 20 20 88 88 88 88 61 61 21 21 61 61 88 88 60 60 10 10 21 21 61 61 60 60 6 6 62 62 62 62 89 89 60 60 89 89 62 62 63 63 63 63 71 71 89 89 71 71 63 63 11 11 61 61 60 60 89 89 89 89 70 70 61 61 70 70 89 89 71 71 10 10 61 61 70 70 26 26 1 1 30 30 30 30 90 90 26 26 90 90 30 30 31 31 31 31 63 63 90 90 63 63 31 31 11 11 27 27 26 26 90 90 90 90 62 62 27 27 62 62 90 90 63 63 6 6 27 27 62 62 66 66 7 7 64 64 64 64 91 91 66 66 91 91 64 64 65 65 65 65 70 70 91 91 70 70 65 65 10 10 67 67 66 66 91 91 91 91 71 71 67 67 71 71 91 91 70 70 11 11 67 67 71 71 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="scene_0" name="Scene_0">
+      <node id="visgeom_0" type="NODE">
+        <node id="geometry_verts0_0_fcc.off">
+          <node>
+            <translate>0.5 0.5 0</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.5 -0.5 0</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.5 0.5 0</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.5 -0.5 0</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.5 0 0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.5 0 -0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.5 0 0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.5 0 -0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 0.5 0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 0.5 -0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 -0.5 0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 -0.5 -0.5</translate>
+            <scale>0.36 0.36 0.36</scale>
+            <instance_geometry url="#geometry_vertex_sphere">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_vertex_sphere" target="#m_ff8000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#scene_0" />
+  </scene>
+</COLLADA>
