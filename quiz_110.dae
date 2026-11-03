@@ -4,8 +4,8 @@
     <contributor>
       <authoring_tool>off2dae (Antiprism - http://www.antiprism.com)</authoring_tool>
     </contributor>
-    <created>2026-11-03T04:45:42Z</created>
-    <modified>2026-11-03T04:45:42Z</modified>
+    <created>2026-11-03T04:49:34Z</created>
+    <modified>2026-11-03T04:49:34Z</modified>
     <unit meter="1" name="meter" />
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -20,11 +20,11 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="c_ffff00ff">
+    <effect id="c_e67373ff">
       <profile_COMMON>
         <technique sid="common">
           <phong>
-            <diffuse><color>1.0000 1.0000 0.0000 1.0000</color></diffuse>
+            <diffuse><color>0.9020 0.4510 0.4510 1.0000</color></diffuse>
             <transparency><float>1.000000</float></transparency>
           </phong>
         </technique>
@@ -33,29 +33,29 @@
   </library_effects>
   <library_materials>
     <material id="m_000000ff"><instance_effect url="#c_000000ff" /></material>
-    <material id="m_ffff00ff"><instance_effect url="#c_ffff00ff" /></material>
+    <material id="m_e67373ff"><instance_effect url="#c_e67373ff" /></material>
   </library_materials>
   <library_geometries>
-    <geometry id="geometry_0_0_quiz_109.off">
+    <geometry id="geometry_0_0_quiz_110.off">
       <mesh>
-        <source id="source_0_0_quiz_109.off">
-          <float_array id="float_array_0_0_quiz_109.off" count="30">
-            -0.918169040426 0.09945657964600003 -0.5301051426509999 0.918169040426 0.09945657964600003 -0.5301051426509999 0 0.09945657964599994 1.060210285303 -1.037439645743 0.5378693930090001 0.598966058737 1.037439645743 0.5378693930090001 0.598966058737 0 0.5378693930090002 -1.197932117475 -0.856438717255 -0.903189909274 -0.05920029333500006 0.479488316567 -0.903189909274 -0.71209753926 0.376950400688 -0.903189909274 0.771297832595 0 1.107186860407 6.779340320615308e-17 
+        <source id="source_0_0_quiz_110.off">
+          <float_array id="float_array_0_0_quiz_110.off" count="24">
+            -0.872175357 0.489193363 0 -0.872175357 -0.489193363 0 0.270026673 0.962852842 0 -0.270026673 0 -0.962852842 0.270026673 -0.962852842 0 -0.270026673 0 0.962852842 0.872175357 0 -0.489193363 0.872175357 0 0.489193363 
           </float_array>
           <technique_common>
-            <accessor count="10" source="#float_array_0_0_quiz_109.off" offset="0" stride="3">
+            <accessor count="8" source="#float_array_0_0_quiz_110.off" offset="0" stride="3">
               <param name="X" type="float" />
               <param name="Y" type="float" />
               <param name="Z" type="float" />
             </accessor>
           </technique_common>
         </source>
-        <vertices id="vertices_0_0_quiz_109.off">
-          <input semantic="POSITION" source="#source_0_0_quiz_109.off" />
+        <vertices id="vertices_0_0_quiz_110.off">
+          <input semantic="POSITION" source="#source_0_0_quiz_110.off" />
         </vertices>
-        <triangles material="im_ffff00ff" count="16">
-          <input semantic="VERTEX" offset="0" source="#vertices_0_0_quiz_109.off" />
-          <p>0 9 5 9 0 3 5 6 0 6 5 7 9 1 5 1 9 4 1 8 7 8 1 4 3 4 9 4 3 2 6 2 3 2 6 8 3 0 6 1 7 5 4 2 8 8 6 7 </p>
+        <triangles material="im_e67373ff" count="12">
+          <input semantic="VERTEX" offset="0" source="#vertices_0_0_quiz_110.off" />
+          <p>0 3 2 0 1 3 4 3 1 5 4 1 0 5 1 5 0 2 6 2 3 2 6 7 7 5 2 7 4 5 6 4 7 6 3 4 </p>
         </triangles>
       </mesh>
     </geometry>
@@ -100,19 +100,19 @@
   <library_visual_scenes>
     <visual_scene id="scene_0" name="Scene_0">
       <node id="visgeom_0" type="NODE">
-        <instance_geometry url="#geometry_0_0_quiz_109.off">
+        <instance_geometry url="#geometry_0_0_quiz_110.off">
           <bind_material>
             <technique_common>
               <instance_material symbol="im_000000ff" target="#m_000000ff" />
-              <instance_material symbol="im_ffff00ff" target="#m_ffff00ff" />
+              <instance_material symbol="im_e67373ff" target="#m_e67373ff" />
             </technique_common>
           </bind_material>
         </instance_geometry>
-        <node id="geometry_edges0_0_quiz_109.off">
+        <node id="geometry_edges0_0_quiz_110.off">
           <node>
-            <translate>-0.97780434 0.31866299 0.034430458</translate>
-            <rotate>0.9649293 0.2625099 -0 -21.92024</rotate>
-            <scale>0.005 0.005 1.2170592</scale>
+            <translate>-0.87217536 0 0</translate>
+            <rotate>-1 0 0 -90</rotate>
+            <scale>0.005 0.005 0.97838673</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -122,9 +122,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.45908452 0.31866299 -0.86401863</translate>
-            <rotate>0.43088629 -0.90240623 0 -123.27937</rotate>
-            <scale>0.005 0.005 1.2170592</scale>
+            <translate>-0.30107434 0.7260231 0</translate>
+            <rotate>0.38305885 -0.92372394 0 -90</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -134,9 +134,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.88730388 -0.40186666 -0.29465272</translate>
-            <rotate>-0.9981101 -0.06145103 0 -64.884025</rotate>
-            <scale>0.005 0.005 1.1094422</scale>
+            <translate>-0.57110101 0.24459668 -0.48142642</translate>
+            <rotate>-0.63055191 -0.77614708 0 -141.1399</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -146,9 +146,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.97780434 0.31866299 0.034430458</translate>
-            <rotate>0.9649293 -0.2625099 0 -21.92024</rotate>
-            <scale>0.005 0.005 1.2170592</scale>
+            <translate>-0.57110101 0.24459668 0.48142642</translate>
+            <rotate>-0.63055191 -0.77614708 0 -38.860097</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -158,9 +158,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.45908452 0.31866299 -0.86401863</translate>
-            <rotate>0.43088629 0.90240623 -0 -123.27937</rotate>
-            <scale>0.005 0.005 1.2170592</scale>
+            <translate>-0.57110101 -0.24459668 -0.48142642</translate>
+            <rotate>0.63055191 -0.77614708 0 -141.1399</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -170,9 +170,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.69882868 -0.40186666 -0.62110134</translate>
-            <rotate>-0.91614966 0.40083639 0 -99.441444</rotate>
-            <scale>0.005 0.005 1.1094422</scale>
+            <translate>-0.30107434 -0.7260231 0</translate>
+            <rotate>-0.38305885 -0.92372394 0 -90</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -182,9 +182,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.51871982 0.31866299 0.82958817</translate>
-            <rotate>0.38926043 0.92112774 -0 -112.27068</rotate>
-            <scale>0.005 0.005 1.2170592</scale>
+            <translate>-0.57110101 -0.24459668 0.48142642</translate>
+            <rotate>0.63055191 -0.77614708 0 -38.860097</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -194,9 +194,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.51871982 0.31866299 0.82958817</translate>
-            <rotate>0.38926043 -0.92112774 0 -112.27068</rotate>
-            <scale>0.005 0.005 1.2170592</scale>
+            <translate>0 0.48142642 -0.48142642</translate>
+            <rotate>-0.87217536 0.48919336 0 -131.09414</rotate>
+            <scale>0.005 0.005 1.4648648</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -206,9 +206,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.1884752 -0.40186666 0.91575406</translate>
-            <rotate>-0.93603482 -0.35190738 0 -105.09453</rotate>
-            <scale>0.005 0.005 1.1094422</scale>
+            <translate>0 0.48142642 0.48142642</translate>
+            <rotate>-0.87217536 0.48919336 0 -48.905865</rotate>
+            <scale>0.005 0.005 1.4648648</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -218,9 +218,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.94693918 -0.18266026 0.26988288</translate>
-            <rotate>-0.9922041 -0.12462351 0 -114.37829</rotate>
-            <scale>0.005 0.005 1.594552</scale>
+            <translate>0.57110101 0.48142642 -0.24459668</translate>
+            <rotate>-0.84785356 -0.53023046 0 -113.30474</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -230,9 +230,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.51871982 0.82252813 0.29948303</translate>
-            <rotate>0.48109177 -0.87667024 0 -116.84606</rotate>
-            <scale>0.005 0.005 1.3263347</scale>
+            <translate>0.57110101 0.48142642 0.24459668</translate>
+            <rotate>-0.84785356 -0.53023046 0 -66.695262</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -242,9 +242,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.70719502 -0.18266026 0.68513195</translate>
-            <rotate>-0.90906393 0.41665666 0 -83.79562</rotate>
-            <scale>0.005 0.005 1.594552</scale>
+            <translate>0 -0.48142642 -0.48142642</translate>
+            <rotate>-0.87217536 -0.48919336 0 -48.905865</rotate>
+            <scale>0.005 0.005 1.4648648</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -254,9 +254,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.51871982 0.82252813 0.29948303</translate>
-            <rotate>0.48109177 0.87667024 -0 -116.84606</rotate>
-            <scale>0.005 0.005 1.3263347</scale>
+            <translate>0.30107434 0 -0.7260231</translate>
+            <rotate>0 -1 0 -67.476716</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -266,9 +266,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.23974416 -0.18266026 -0.95501483</translate>
-            <rotate>-0.94885398 -0.31571525 0 -72.260843</rotate>
-            <scale>0.005 0.005 1.594552</scale>
+            <translate>0 -0.48142642 0.48142642</translate>
+            <rotate>0.87217536 0.48919336 -0 -48.905865</rotate>
+            <scale>0.005 0.005 1.4648648</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -278,9 +278,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0 0.82252813 -0.59896606</translate>
-            <rotate>1 0 0 -25.419413</rotate>
-            <scale>0.005 0.005 1.3263347</scale>
+            <translate>0.57110101 -0.48142642 -0.24459668</translate>
+            <rotate>0.84785356 -0.53023046 0 -113.30474</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -290,9 +290,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.1884752 -0.90318991 -0.38564892</translate>
-            <rotate>0 -1 0 -116.04579</rotate>
-            <scale>0.005 0.005 1.4869351</scale>
+            <translate>0.57110101 -0.48142642 0.24459668</translate>
+            <rotate>0.84785356 -0.53023046 0 -66.695262</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -302,9 +302,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>-0.23974416 -0.90318991 0.35604877</translate>
-            <rotate>0 -1 0 -56.045788</rotate>
-            <scale>0.005 0.005 1.4869351</scale>
+            <translate>0.30107434 0 0.7260231</translate>
+            <rotate>0 -1 0 -112.52328</rotate>
+            <scale>0.005 0.005 1.2365188</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
@@ -314,9 +314,9 @@
             </instance_geometry>
           </node>
           <node>
-            <translate>0.42821936 -0.90318991 0.029600147</translate>
-            <rotate>0 1 -0 -3.9542118</rotate>
-            <scale>0.005 0.005 1.4869351</scale>
+            <translate>0.87217536 0 0</translate>
+            <rotate>0 0 1 -0</rotate>
+            <scale>0.005 0.005 0.97838673</scale>
             <instance_geometry url="#geometry_edge_cylinder">
               <bind_material>
                 <technique_common>
