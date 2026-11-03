@@ -4,8 +4,8 @@
     <contributor>
       <authoring_tool>off2dae (Antiprism - http://www.antiprism.com)</authoring_tool>
     </contributor>
-    <created>2026-11-03T04:58:41Z</created>
-    <modified>2026-11-03T04:58:41Z</modified>
+    <created>2026-11-03T20:02:11Z</created>
+    <modified>2026-11-03T20:02:11Z</modified>
     <unit meter="1" name="meter" />
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -30,21 +30,10 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="c_00ff80ff">
-      <profile_COMMON>
-        <technique sid="common">
-          <phong>
-            <diffuse><color>0.0000 1.0000 0.5020 1.0000</color></diffuse>
-            <transparency><float>1.000000</float></transparency>
-          </phong>
-        </technique>
-      </profile_COMMON>
-    </effect>
   </library_effects>
   <library_materials>
     <material id="m_000000ff"><instance_effect url="#c_000000ff" /></material>
     <material id="m_00ebebff"><instance_effect url="#c_00ebebff" /></material>
-    <material id="m_00ff80ff"><instance_effect url="#c_00ff80ff" /></material>
   </library_materials>
   <library_geometries>
     <geometry id="geometry_0_0_quiz_119.off">
@@ -64,13 +53,9 @@
         <vertices id="vertices_0_0_quiz_119.off">
           <input semantic="POSITION" source="#source_0_0_quiz_119.off" />
         </vertices>
-        <triangles material="im_00ebebff" count="8">
+        <triangles material="im_00ebebff" count="20">
           <input semantic="VERTEX" offset="0" source="#vertices_0_0_quiz_119.off" />
-          <p>0 4 2 0 9 10 1 9 8 5 1 3 11 8 2 11 7 3 6 7 4 5 6 10 </p>
-        </triangles>
-        <triangles material="im_00ff80ff" count="12">
-          <input semantic="VERTEX" offset="0" source="#vertices_0_0_quiz_119.off" />
-          <p>0 2 8 8 9 0 0 10 4 9 1 5 1 8 11 1 11 3 4 7 2 11 2 7 7 6 3 5 3 6 6 4 10 9 5 10 </p>
+          <p>0 4 2 0 2 8 8 9 0 0 9 10 0 10 4 9 1 5 1 9 8 1 8 11 1 11 3 5 1 3 4 7 2 11 2 7 11 8 2 11 7 3 7 6 3 5 3 6 6 4 10 6 7 4 5 6 10 9 5 10 </p>
         </triangles>
       </mesh>
     </geometry>
@@ -120,7 +105,6 @@
             <technique_common>
               <instance_material symbol="im_000000ff" target="#m_000000ff" />
               <instance_material symbol="im_00ebebff" target="#m_00ebebff" />
-              <instance_material symbol="im_00ff80ff" target="#m_00ff80ff" />
             </technique_common>
           </bind_material>
         </instance_geometry>
