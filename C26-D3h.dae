@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>off2dae (Antiprism - http://www.antiprism.com)</authoring_tool>
+    </contributor>
+    <created>2026-11-03T23:11:53Z</created>
+    <modified>2026-11-03T23:11:53Z</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="c_000000ff">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse><color>0.0000 0.0000 0.0000 1.0000</color></diffuse>
+            <transparency><float>1.000000</float></transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="c_ffc0cbff">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse><color>1.0000 0.7529 0.7961 1.0000</color></diffuse>
+            <transparency><float>1.000000</float></transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="m_000000ff"><instance_effect url="#c_000000ff" /></material>
+    <material id="m_ffc0cbff"><instance_effect url="#c_ffc0cbff" /></material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geometry_0_0_C26-D3h.off">
+      <mesh>
+        <source id="source_0_0_C26-D3h.off">
+          <float_array id="float_array_0_0_C26-D3h.off" count="78">
+            -0.592797939 -0.528883845 0.69464877 0.592797939 -0.8660254040000001 0.110702459 -0.592797939 -0.8660254040000001 0.110702459 -0.592797939 0.337141561 -0.80535123 0.887564738 0.470090618 -0.271406944 0.592797939 0.337141561 -0.805351229 0 0.68973079 -0.805351229 0.592797939 -0.528883845 0.69464877 1.037396393 0 0 0 -0.352589231 1 0.887564738 0 0.542813889 0 -0.689730788 -0.8053512309999999 -0.592797939 -0.337141559 -0.80535123 0.592797939 -0.337141559 -0.80535123 0.887564738 -0.470090617 -0.271406945 0 -1.042320018 -0.194648771 -0.887564738 -0.470090617 -0.271406945 -0.887564738 0.470090618 -0.271406944 0 1.042320019 -0.194648769 0.592797939 0.8660254040000001 0.110702461 -0.592797939 0.528883844 0.694648771 0 0.352589228 1 -0.887564738 0 0.542813889 -1.037396393 0 0 -0.592797939 0.8660254040000001 0.110702461 0.592797939 0.528883843 0.694648771 
+          </float_array>
+          <technique_common>
+            <accessor count="26" source="#float_array_0_0_C26-D3h.off" offset="0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vertices_0_0_C26-D3h.off">
+          <input semantic="POSITION" source="#source_0_0_C26-D3h.off" />
+        </vertices>
+        <triangles material="im_ffc0cbff" count="48">
+          <input semantic="VERTEX" offset="0" source="#vertices_0_0_C26-D3h.off" />
+          <p>2 1 15 1 2 0 1 0 7 7 0 9 19 24 18 24 19 25 24 25 20 20 25 21 25 9 21 9 25 7 7 25 10 20 0 22 0 20 21 0 21 9 20 23 22 23 20 17 17 20 24 16 0 2 0 16 22 22 16 23 4 10 8 10 4 25 25 4 19 14 7 1 7 14 10 10 14 8 11 3 12 3 11 6 6 11 13 6 13 5 8 13 14 13 8 5 5 8 4 4 6 5 6 4 18 18 4 19 18 3 6 3 18 17 17 18 24 12 23 16 23 12 3 23 3 17 16 11 12 11 16 15 15 16 2 15 13 11 13 15 14 14 15 1 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geometry_edge_cylinder">
+      <mesh>
+        <source id="source_normals_edge_cylinder">
+          <float_array id="float_array_normals_edge_cylinder" count="108">
+            1 0 0 0.939693 -0.34202 0 0.766044 -0.642788 0 0.5 -0.866025 0 0.173648 -0.984808 0 -0.173648 -0.984808 0 -0.5 -0.866025 0 -0.766044 -0.642788 0 -0.939693 -0.34202 0 -1 -1.22461e-16 0 -0.939693 0.34202 0 -0.766044 0.642788 0 -0.5 0.866025 0 -0.173648 0.984808 0 0.173648 0.984808 0 0.5 0.866025 0 0.766044 0.642788 0 0.939693 0.34202 0 1 0 0 0.939693 -0.34202 0 0.766044 -0.642788 0 0.5 -0.866025 0 0.173648 -0.984808 0 -0.173648 -0.984808 0 -0.5 -0.866025 0 -0.766044 -0.642788 0 -0.939693 -0.34202 0 -1 -1.22461e-16 0 -0.939693 0.34202 0 -0.766044 0.642788 0 -0.5 0.866025 0 -0.173648 0.984808 0 0.173648 0.984808 0 0.5 0.866025 0 0.766044 0.642788 0 0.939693 0.34202 0 
+          </float_array>
+          <technique_common>
+            <accessor count="36" source="#float_array_normals_edge_cylinder" offset="0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="source_edge_cylinder">
+          <float_array id="float_array_edge_cylinder" count="108">
+            1 0 0.5 0.939693 -0.34202 0.5 0.766044 -0.642788 0.5 0.5 -0.866025 0.5 0.173648 -0.984808 0.5 -0.173648 -0.984808 0.5 -0.5 -0.866025 0.5 -0.766044 -0.642788 0.5 -0.939693 -0.34202 0.5 -1 -1.22461e-16 0.5 -0.939693 0.34202 0.5 -0.766044 0.642788 0.5 -0.5 0.866025 0.5 -0.173648 0.984808 0.5 0.173648 0.984808 0.5 0.5 0.866025 0.5 0.766044 0.642788 0.5 0.939693 0.34202 0.5 1 0 -0.5 0.939693 -0.34202 -0.5 0.766044 -0.642788 -0.5 0.5 -0.866025 -0.5 0.173648 -0.984808 -0.5 -0.173648 -0.984808 -0.5 -0.5 -0.866025 -0.5 -0.766044 -0.642788 -0.5 -0.939693 -0.34202 -0.5 -1 -1.22461e-16 -0.5 -0.939693 0.34202 -0.5 -0.766044 0.642788 -0.5 -0.5 0.866025 -0.5 -0.173648 0.984808 -0.5 0.173648 0.984808 -0.5 0.5 0.866025 -0.5 0.766044 0.642788 -0.5 0.939693 0.34202 -0.5 
+          </float_array>
+          <technique_common>
+            <accessor count="36" source="#float_array_edge_cylinder" offset="0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vertices_edge_cylinder">
+          <input semantic="POSITION" source="#source_edge_cylinder" />
+        </vertices>
+        <polylist material="im_edge_cylinder" count="20">
+          <input semantic="VERTEX" offset="0" source="#vertices_edge_cylinder" />
+          <input semantic="NORMAL" offset="1" source="#source_normals_edge_cylinder" />
+          <vcount>18 18 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>17 17 16 16 15 15 14 14 13 13 12 12 11 11 10 10 9 9 8 8 7 7 6 6 5 5 4 4 3 3 2 2 1 1 0 0 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32 33 33 34 34 35 35 0 0 1 1 19 19 18 18 1 1 2 2 20 20 19 19 2 2 3 3 21 21 20 20 3 3 4 4 22 22 21 21 4 4 5 5 23 23 22 22 5 5 6 6 24 24 23 23 6 6 7 7 25 25 24 24 7 7 8 8 26 26 25 25 8 8 9 9 27 27 26 26 9 9 10 10 28 28 27 27 10 10 11 11 29 29 28 28 11 11 12 12 30 30 29 29 12 12 13 13 31 31 30 30 13 13 14 14 32 32 31 31 14 14 15 15 33 33 32 32 15 15 16 16 34 34 33 33 16 16 17 17 35 35 34 34 17 17 0 0 18 18 35 35 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="scene_0" name="Scene_0">
+      <node id="visgeom_0" type="NODE">
+        <instance_geometry url="#geometry_0_0_C26-D3h.off">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="im_000000ff" target="#m_000000ff" />
+              <instance_material symbol="im_ffc0cbff" target="#m_ffc0cbff" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <node id="geometry_edges0_0_C26-D3h.off">
+          <node>
+            <translate>-0.59279794 -0.69745462 0.40267561</translate>
+            <rotate>-1 -0 0 -150</rotate>
+            <scale>0.005 0.005 0.67428312</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.29639897 -0.44073654 0.84732439</translate>
+            <rotate>0.28505553 -0.95851101 0 -63.723034</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.74018134 -0.26444192 0.61873133</translate>
+            <rotate>0.87349568 0.4868319 -0 -104.07765</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.59279794 -0.69745462 0.40267561</translate>
+            <rotate>1 0 0 -30</rotate>
+            <scale>0.005 0.005 0.67428312</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.74018134 -0.66805801 -0.080352243</translate>
+            <rotate>0.80211905 -0.59716416 0 -127.74383</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.29639897 -0.95417271 -0.041973156</translate>
+            <rotate>-0.28505553 0.95851101 0 -116.27697</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.29639897 -0.95417271 -0.041973156</translate>
+            <rotate>-0.28505553 -0.95851101 0 -116.27697</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.74018134 -0.66805801 -0.080352243</translate>
+            <rotate>0.80211905 0.59716416 -0 -127.74383</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.29639897 0.51343618 -0.80535123</translate>
+            <rotate>0.51119833 -0.85946278 0 -90</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.59279794 1e-09 -0.80535123</translate>
+            <rotate>-1 0 0 -90</rotate>
+            <scale>0.005 0.005 0.67428312</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.74018134 0.40361609 -0.53837909</translate>
+            <rotate>0.41114633 0.91156936 -0 -31.199509</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.74018134 0.40361609 -0.53837909</translate>
+            <rotate>-0.41114633 0.91156936 0 -148.80049</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.96248057 0.23504531 -0.13570347</translate>
+            <rotate>-0.95277495 -0.30367729 0 -61.185473</rotate>
+            <scale>0.005 0.005 0.56311317</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.74018134 0.66805801 -0.080352241</translate>
+            <rotate>0.80211905 0.59716416 -0 -52.256174</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.29639897 0.51343618 -0.80535123</translate>
+            <rotate>0.51119833 0.85946278 -0 -90</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.59279794 1e-09 -0.80535123</translate>
+            <rotate>-1 -0 0 -90</rotate>
+            <scale>0.005 0.005 0.67428312</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 0.8660254 -0.5</translate>
+            <rotate>1 0 0 -30</rotate>
+            <scale>0.005 0.005 0.70517846</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.29639897 -0.44073654 0.84732439</translate>
+            <rotate>0.28505553 0.95851101 -0 -63.723034</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.74018134 -0.26444192 0.61873133</translate>
+            <rotate>0.87349568 -0.4868319 0 -104.07765</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.96248057 0 0.27140694</translate>
+            <rotate>0 1 -0 -15.430978</rotate>
+            <scale>0.005 0.005 0.56311317</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.96248057 -0.23504531 -0.13570347</translate>
+            <rotate>-0.95277495 0.3036773 0 -118.81453</rotate>
+            <scale>0.005 0.005 0.56311317</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 -1.5e-09 1</translate>
+            <rotate>1 0 0 -90</rotate>
+            <scale>0.005 0.005 0.70517846</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.74018134 0.26444192 0.61873133</translate>
+            <rotate>0.87349568 0.4868319 -0 -75.922352</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.29639897 -0.51343617 -0.80535123</translate>
+            <rotate>0.51119833 0.85946278 -0 -90</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.29639897 -0.51343617 -0.80535123</translate>
+            <rotate>0.51119833 -0.85946278 0 -90</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0 -0.8660254 -0.5</translate>
+            <rotate>-1 0 0 -30</rotate>
+            <scale>0.005 0.005 0.70517846</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.74018134 -0.40361609 -0.53837909</translate>
+            <rotate>-0.41114633 0.91156936 0 -31.199509</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.74018134 -0.40361609 -0.53837909</translate>
+            <rotate>-0.41114633 -0.91156936 0 -31.199509</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.96248057 -0.23504531 -0.13570347</translate>
+            <rotate>0.95277495 0.3036773 -0 -61.185473</rotate>
+            <scale>0.005 0.005 0.56311317</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.96248057 0.23504531 -0.13570347</translate>
+            <rotate>-0.95277495 0.30367729 0 -61.185473</rotate>
+            <scale>0.005 0.005 0.56311317</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.74018134 0.66805801 -0.080352241</translate>
+            <rotate>0.80211905 -0.59716416 0 -52.256174</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.29639897 0.95417271 -0.041973154</translate>
+            <rotate>-0.28505553 -0.95851101 0 -63.723034</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.29639897 0.95417271 -0.041973154</translate>
+            <rotate>-0.28505553 0.95851101 0 -63.723034</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.59279794 0.69745462 0.40267562</translate>
+            <rotate>-1 0 0 -30</rotate>
+            <scale>0.005 0.005 0.67428312</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.29639897 0.44073654 0.84732439</translate>
+            <rotate>-0.28505553 -0.958511 0 -63.723035</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.74018134 0.26444192 0.61873133</translate>
+            <rotate>-0.87349568 0.4868319 0 -104.07765</rotate>
+            <scale>0.005 0.005 0.62422706</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.59279794 0.69745462 0.40267562</translate>
+            <rotate>1 -0 0 -150</rotate>
+            <scale>0.005 0.005 0.67428312</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>0.29639897 0.44073654 0.84732439</translate>
+            <rotate>0.28505553 -0.95851101 0 -116.27697</rotate>
+            <scale>0.005 0.005 0.68973079</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node>
+            <translate>-0.96248057 0 0.27140694</translate>
+            <rotate>0 1 -0 -164.56902</rotate>
+            <scale>0.005 0.005 0.56311317</scale>
+            <instance_geometry url="#geometry_edge_cylinder">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="im_edge_cylinder" target="#m_000000ff" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#scene_0" />
+  </scene>
+</COLLADA>
